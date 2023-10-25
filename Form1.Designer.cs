@@ -135,7 +135,7 @@
             buttonSave1.Name = "buttonSave1";
             buttonSave1.Size = new Size(97, 26);
             buttonSave1.TabIndex = 23;
-            buttonSave1.Text = "Save";
+            buttonSave1.Text = "Add to DataSet";
             buttonSave1.UseVisualStyleBackColor = true;
             buttonSave1.Click += buttonSave_Click;
             // 
@@ -311,7 +311,7 @@
             buttonSave2.Name = "buttonSave2";
             buttonSave2.Size = new Size(97, 26);
             buttonSave2.TabIndex = 61;
-            buttonSave2.Text = "Save";
+            buttonSave2.Text = "Add to DataSet";
             buttonSave2.UseVisualStyleBackColor = true;
             buttonSave2.Click += buttonSave2_Click;
             // 
@@ -321,7 +321,7 @@
             buttonSave3.Name = "buttonSave3";
             buttonSave3.Size = new Size(97, 26);
             buttonSave3.TabIndex = 62;
-            buttonSave3.Text = "Save";
+            buttonSave3.Text = "Add to DataSet";
             buttonSave3.UseVisualStyleBackColor = true;
             buttonSave3.Click += buttonSave3_Click;
             // 
@@ -331,7 +331,7 @@
             buttonSave4.Name = "buttonSave4";
             buttonSave4.Size = new Size(97, 26);
             buttonSave4.TabIndex = 63;
-            buttonSave4.Text = "Save";
+            buttonSave4.Text = "Add to DataSet";
             buttonSave4.UseVisualStyleBackColor = true;
             buttonSave4.Click += buttonSave4_Click;
             // 
@@ -341,7 +341,7 @@
             buttonSave5.Name = "buttonSave5";
             buttonSave5.Size = new Size(97, 26);
             buttonSave5.TabIndex = 64;
-            buttonSave5.Text = "Save";
+            buttonSave5.Text = "Add to DataSet";
             buttonSave5.UseVisualStyleBackColor = true;
             buttonSave5.Click += buttonSave5_Click;
             // 
@@ -351,7 +351,7 @@
             buttonSave6.Name = "buttonSave6";
             buttonSave6.Size = new Size(97, 26);
             buttonSave6.TabIndex = 65;
-            buttonSave6.Text = "Save";
+            buttonSave6.Text = "Add to DataSet";
             buttonSave6.UseVisualStyleBackColor = true;
             buttonSave6.Click += buttonSave6_Click;
             // 
@@ -361,7 +361,7 @@
             buttonSave7.Name = "buttonSave7";
             buttonSave7.Size = new Size(97, 26);
             buttonSave7.TabIndex = 66;
-            buttonSave7.Text = "Save";
+            buttonSave7.Text = "Add to DataSet";
             buttonSave7.UseVisualStyleBackColor = true;
             buttonSave7.Click += buttonSave7_Click;
             // 
@@ -371,7 +371,7 @@
             buttonSave8.Name = "buttonSave8";
             buttonSave8.Size = new Size(97, 26);
             buttonSave8.TabIndex = 67;
-            buttonSave8.Text = "Save";
+            buttonSave8.Text = "Add to DataSet";
             buttonSave8.UseVisualStyleBackColor = true;
             buttonSave8.Click += buttonSave8_Click;
             // 
@@ -381,7 +381,7 @@
             buttonSave9.Name = "buttonSave9";
             buttonSave9.Size = new Size(97, 26);
             buttonSave9.TabIndex = 68;
-            buttonSave9.Text = "Save";
+            buttonSave9.Text = "Add to DataSet";
             buttonSave9.UseVisualStyleBackColor = true;
             buttonSave9.Click += buttonSave9_Click;
             // 
@@ -391,7 +391,7 @@
             buttonSave0.Name = "buttonSave0";
             buttonSave0.Size = new Size(97, 26);
             buttonSave0.TabIndex = 69;
-            buttonSave0.Text = "Save";
+            buttonSave0.Text = "Add to DataSet";
             buttonSave0.UseVisualStyleBackColor = true;
             buttonSave0.Click += buttonSave0_Click;
             // 
