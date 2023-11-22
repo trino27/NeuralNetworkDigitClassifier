@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace NeuroTest1
+namespace NeuroDigits.NeuralNetwork
 {
     [Serializable]
     [XmlRoot("Layer")]
-    public class Layer
+    public class NeuralNetworkLayers
     {
         [XmlElement("Size")]
         public int size { get; set; }
@@ -25,7 +25,7 @@ namespace NeuroTest1
         public double[] xmlWeights { get; set; }
 
         [Obsolete("This method only for serialization")]
-        public Layer()
+        public NeuralNetworkLayers()
         {
             size = 0;
             nextSize = 0;
@@ -34,7 +34,7 @@ namespace NeuroTest1
             weights = new double[size, nextSize];
             xmlWeights = new double[size * nextSize];
         }
-        public Layer(int size, int nextSize)
+        public NeuralNetworkLayers(int size, int nextSize)
         {
             this.size = size;
             this.nextSize = nextSize;
@@ -46,7 +46,7 @@ namespace NeuroTest1
 
         public void ConvertWeightsToXMLWeights()
         {
-            if(nextSize != 0) xmlWeights = new double[size * nextSize];
+            if (nextSize != 0) xmlWeights = new double[size * nextSize];
             else xmlWeights = new double[size];
             for (int i = 0; i < size; i++)
             {
@@ -58,7 +58,7 @@ namespace NeuroTest1
         }
         public void ConvertXMLWeightsToWeights()
         {
-            weights = new double[size, nextSize]; 
+            weights = new double[size, nextSize];
             for (int i = 0; i < size; i++)
             {
                 for (int j = 0; j < nextSize; j++)

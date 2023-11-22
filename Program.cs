@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace NeuroTest1
+namespace Neuro
 {
     internal static class Program
     {

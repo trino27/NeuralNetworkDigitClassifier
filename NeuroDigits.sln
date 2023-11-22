@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33927.210
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuroTest1", "NeuroTest1.csproj", "{D13F54B0-CD80-4AF6-BE18-3CD3F2C98964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuroDigits", "NeuroDigits.csproj", "{D13F54B0-CD80-4AF6-BE18-3CD3F2C98964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
